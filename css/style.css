@@ -74,6 +74,7 @@ body button:hover {
   -webkit-box-shadow: 2px 2px 2px black;
           box-shadow: 2px 2px 2px black;
   background: transparent;
+  text-align: center;
 }
 
 .input-wrapper label {
