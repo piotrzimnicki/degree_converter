@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1><span id="convertFrom">°C</span> to <span id="convertTo">°F</span> Converter</h1>
+        <div class="input-wrapper">
+            <label for="converter">Enter a number</label>
+            <input type="text" id="converter">
+            <p class="result"></p>
+        </div>
+        <div class="buttons-wrapper">
+            <div class="buttons">
+                <button onclick="convert();" class="convert">Convert</button>
+                <button onclick="reset();" class="reset">Reset</button>
+                <button onclick="swap();" class="swap">Swap</button>
+            </div>
+        </div>
+    </main>
+    
+<script src="js/main.js"></script>
+</body>
+</html>

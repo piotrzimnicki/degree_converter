@@ -1,0 +1,88 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background: #e9c60f;
+  background: linear-gradient(125deg, #e9c60f 0%, #ff6200 100%);
+  text-align: center;
+  position: relative;
+}
+
+body main {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+body h1 {
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+body p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+body button {
+  display: block;
+  padding: 15px 25px;
+  margin: 20px;
+  background: transparent;
+  border: 1px solid black;
+  font-size: 24px;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  -webkit-box-shadow: 2px 2px 2px black;
+          box-shadow: 2px 2px 2px black;
+}
+
+body button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.buttons-wrapper {
+  margin-top: 20px;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#converter {
+  padding: 20px;
+  max-width: 150px;
+  font-size: 30px;
+  border: 2px solid #000;
+  -webkit-box-shadow: 2px 2px 2px black;
+          box-shadow: 2px 2px 2px black;
+  background: transparent;
+}
+
+.input-wrapper label {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.result {
+  height: 23px;
+}
+/*# sourceMappingURL=style.css.map */
