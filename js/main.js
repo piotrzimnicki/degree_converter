@@ -15,8 +15,7 @@ function swap() {
         convertTo.innerText = '°F';
         result.innerText = '';
     }
-}
-
+};
 function convert () {
     if (convertFrom.innerText == '°C' && input.value != '' ){
         let x = input.value;
@@ -31,10 +30,15 @@ function convert () {
         result.innerText = `${x}°F is equal to ${y}°C`;
         input.value = '';
     }
-}
+};
 function reset() {
     input.value = '';
     convertFrom.innerText = '°C';
     convertTo.innerText = '°F';
     result.innerText = '';
-}
+};
+input.addEventListener('keyup', function(event){
+    if (event.key === 'Enter') {
+        convert();
+    }
+});
